@@ -30,7 +30,6 @@ header {
 
 .heading {
     margin-left: 50px;
-    color: #FFF;
 }
 
 .logo {
@@ -49,6 +48,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
+    color: #fff;
 }
 
 .title {
@@ -56,6 +56,7 @@ header {
     font-weight: 200;
     font-size: 28px;
     margin: 20px 0 90px 0;
+    color: #fff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -64,6 +65,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -101,4 +106,11 @@ header {
     letter-spacing: 2px;
     font-size: 14px;
     font-weight: 300;
+}
+
+/* Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
